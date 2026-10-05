@@ -460,3 +460,18 @@ a:hover {
     border: 6px solid #6366f1;  
     box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
 }
+.footer-link {
+    color: #fbbf24;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-link i {
+    margin-right: 4px;
+}
